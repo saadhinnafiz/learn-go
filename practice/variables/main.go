@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func main() {
+func variables() {
 	fname := "Dalinar"
 	lname := "Kholin"
 	age := 45
