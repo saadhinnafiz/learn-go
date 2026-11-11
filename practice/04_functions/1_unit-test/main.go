@@ -31,4 +31,7 @@ func getMonthlyPrice(tier string) int {
 
 func main() {
 	fmt.Println(getMonthlyPrice("basic"))
+	fmt.Println(getMonthlyPrice("premium"))
+	fmt.Println(getMonthlyPrice("enterprise"))
+	fmt.Println(getMonthlyPrice("free"))
 }
